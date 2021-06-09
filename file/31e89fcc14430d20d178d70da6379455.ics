@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Shubham Rawat:mailto:shubham.rawat@nagarro.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=vivek.agar
+ wal_cs17@gla.ac.in:mailto:vivek.agarwal_cs17@gla.ac.in
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Himanshi G
+ ulati:mailto:himanshi.gulati@nagarro.com
+DESCRIPTION;LANGUAGE=en-US:Hi\,\nBlocking your calendar for the online tech
+ nical interview.\nThe machine should have a basic configuration like web c
+ am & good internet connectivity.\n\nPlease share your resume and a picture
+  for college ID card with us as well.\n\nPlease click on the link below to
+  join :\n\n_______________________________________________________________
+ _________________\nMicrosoft Teams meeting\nJoin on your computer or mobil
+ e app\nClick here to join the meeting<https://teams.microsoft.com/l/meetup
+ -join/19%3ameeting_MzJjYzI3YTAtNDEwZS00MzM1LWJhMmMtMTlmOGRhNDY1Yjky%40thre
+ ad.v2/0?context=%7b%22Tid%22%3a%22a45fe71a-f480-4e42-ad5e-aff33165aa35%22%
+ 2c%22Oid%22%3a%222f41447d-6a29-425f-84c1-f9aa7925b956%22%7d>\nLearn More<h
+ ttps://aka.ms/JoinTeamsMeeting> | Meeting options<https://teams.microsoft.
+ com/meetingOptions/?organizerId=2f41447d-6a29-425f-84c1-f9aa7925b956&tenan
+ tId=a45fe71a-f480-4e42-ad5e-aff33165aa35&threadId=19_meeting_MzJjYzI3YTAtN
+ DEwZS00MzM1LWJhMmMtMTlmOGRhNDY1Yjky@thread.v2&messageId=0&language=en-US>\
+ n_________________________________________________________________________
+ _______\n\nRegards\,\nShubham Rawat\n
+UID:040000008200E00074C5B7101A82E008000000006020871752F2D601000000000000000
+ 010000000DA6C3A0046915447B5C9B2395A84ED75
+SUMMARY;LANGUAGE=en-US:Technical Interview
+DTSTART;TZID=India Standard Time:20210128T094500
+DTEND;TZID=India Standard Time:20210128T100000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210124T073934Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:1454905317
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MzJjYzI3YTAtNDEwZS00MzM1LWJhMmMtMTlmOGRhNDY1Yjky%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22a45fe71a-f480-4e42-ad5e-aff33165aa35%22%2c%22O
+ id%22%3a%222f41447d-6a29-425f-84c1-f9aa7925b956%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/a45fe71a-f480-4e42-ad5e-aff33165aa35/2f41447d-6a29-425f-84c1-f
+ 9aa7925b956/19_meeting_MzJjYzI3YTAtNDEwZS00MzM1LWJhMmMtMTlmOGRhNDY1Yjky@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MzJjYzI3YTAtNDEwZS00MzM
+ 1LWJhMmMtMTlmOGRhNDY1Yjky@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:shubham.rawat@nagarro.com\;gruu\
+ ;opaque=app:conf:focus:id:teams:2:0!19:meeting_MzJjYzI3YTAtNDEwZS00MzM1LWJ
+ hMmMtMTlmOGRhNDY1Yjky-thread.v2!2f41447d6a29425f84c1f9aa7925b956!a45fe71af
+ 4804e42ad5eaff33165aa35
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "Loca
+ tionAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Loca
+ tionUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

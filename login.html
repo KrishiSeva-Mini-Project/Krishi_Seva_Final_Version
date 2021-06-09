@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title></title>
+				<link rel="stylesheet" href="css/styleLogin.css">
+				
+</head>
+
+<body>
+			<div class="hero">
+				<div class="form-box" id="form-box">
+					<div class="button-box">
+					<div id="btn"></div>
+						<button type="button" class="toggle-btn" onclick="login()">Login</button>
+						<button type="button" class="toggle-btn" onclick="register()"=>Reister</button>
+					</div>
+					<div class="social-icons">
+					<img src="image/facebook.png">
+					<img src="image/gmail.png">
+					<img src="image/twiitter.png">
+					
+				</div>
+				<form id="login" class="input-group" action="farmerLogin.php">
+					<input type="text" class="input-field" placeholder="User Id"required name="username">
+					<input type="password" name="password" class="input-field" placeholder="password"required>
+					
+					<button type="submit" class="submit-btn">Login</button>
+				</form>
+				<form id="register" class="input-group" action="farmerRegistration.php">
+					<input type="text" class="input-field" placeholder="First Name"required name="fn">
+					<input type="text" class="input-field" placeholder="Last Name"required name="ln">
+					<input type="number" class="input-field" placeholder="phone number"required name="mob">
+					<input type="email" class="input-field" placeholder="email"required name="email">
+					<input type="date" class="input-field" placeholder="DOB"required name="dob">
+					<input type="number" class="input-field" placeholder="Total Land"required name="toland">
+					<input type="text" class="input-field" placeholder="Address"required name="add">
+					<input type="password" class="input-field" placeholder="Password"required name="password_1">
+					<input type="password" class="input-field" placeholder=" Confirm Password"required name="password_2">
+										
+					<input type="text" class="input-field" placeholder="Pet Name"required name="petname">
+
+				
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+				</div>
+				
+			</div>
+			<script>
+	
+				var x=document.getElementById("login");
+				var y=document.getElementById("register");
+				var z=document.getElementById("btn");
+				var h=document.getElementById("form-box");
+				function register(){
+					x.style.left="-400px";
+					y.style.left="50px";
+					z.style.left="110px";
+						h.style.height="700px";	
+				}
+				
+				function login(){
+					x.style.left="50px";
+					y.style.left="450px";
+					z.style.left="0";
+					h.style.height="480px";	
+					
+								
+				}
+	</script>
+				
+</body>
+</html>
